@@ -16,9 +16,9 @@ if (!process.env.NODE_ENV) {
 }
 
 var app = express();
-
+//SET MONGOLAB_URI="mongodb://heroku_82lbgc0c:son231994@ds053312.mongolab.com:53312/heroku_821bgc0c"
 //Connect to database
-mongoose.connect(config.Env[process.env.NODE_ENV].Database);
+mongoose.connect("mongodb://heroku_82lbgc0c:son231994@ds053312.mongolab.com:53312/heroku_821bgc0c");
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
