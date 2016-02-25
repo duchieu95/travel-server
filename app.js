@@ -16,9 +16,9 @@ if (!process.env.NODE_ENV) {
 }
 
 var app = express();
-//SET MONGOLAB_URI="mongodb://heroku_82lbgc0c:son231994@ds053312.mongolab.com:53312/heroku_821bgc0c"
+//SET MONGOLAB_URI="mongodb://heroku_82lbgc0c:son231994@ds053312.mongolab.com:53312/heroku_821bgc0c
 //Connect to database
-mongoose.connect("mongodb://heroku_82lbgc0c:son231994@ds053312.mongolab.com:53312/heroku_821bgc0c");
+mongoose.connect("mongodb://nvs2394:son231994@ds017248.mlab.com:17248/heroku_82lbgc0c");
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
